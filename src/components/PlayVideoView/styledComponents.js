@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-// import ReactPlayer from 'react-player'
 
 export const VideoPlayer = styled.div`
   padding: 20px;

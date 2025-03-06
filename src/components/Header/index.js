@@ -1,6 +1,7 @@
 import {withRouter} from 'react-router-dom'
 import Cookies from 'js-cookie'
 import Popup from 'reactjs-popup'
+import './index.css'
 
 import {BsMoon, BsBrightnessHigh} from 'react-icons/bs'
 import {FiLogOut} from 'react-icons/fi'
@@ -43,14 +44,7 @@ const Header = props => (
       return (
         <NavbarHeader bgColor={bgColor}>
           <LogoLink to="/">
-            <HeaderLogo
-              src={
-                isDarkTheme
-                  ? 'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-dark-theme-img.png'
-                  : 'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png'
-              }
-              alt="website logo"
-            />
+            <h1 className="headerlogo">Vidnest</h1>
           </LogoLink>
           <ActionsContainer>
             <ThemeButton

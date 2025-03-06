@@ -1,6 +1,7 @@
 import {Component} from 'react'
 import Cookies from 'js-cookie'
 import {Redirect} from 'react-router-dom'
+import './index.css'
 
 import {
   AppContainer,
@@ -117,10 +118,7 @@ class LoginForm extends Component {
     return (
       <AppContainer>
         <FormContainer onSubmit={this.submitForm}>
-          <LoginLogo
-            src="https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png"
-            alt="website logo"
-          />
+          <h1 className="weblogo">Vidnest</h1>
           <InputContainer>{this.renderUsernameField()}</InputContainer>
           <InputContainer>{this.renderPasswordField()}</InputContainer>
           <LoginButton type="submit">Login</LoginButton>

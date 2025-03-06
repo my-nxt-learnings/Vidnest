@@ -5,6 +5,7 @@ export const AppContainer = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: rgb(240, 200, 200);
 `
 export const FormContainer = styled.form`
   display: flex;
@@ -13,6 +14,7 @@ export const FormContainer = styled.form`
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 350px;
+  background-color: white;
 `
 
 export const LoginLogo = styled.img`
@@ -28,7 +30,7 @@ export const InputContainer = styled.div`
 
 export const LoginButton = styled.button`
   width: 100%;
-  background-color: #4f46e5;
+  background-color: rgb(209, 54, 54);
   border: none;
   border-radius: 5px;
   font-family: 'Roboto';
@@ -58,7 +60,7 @@ export const UserInput = styled.input`
   outline: none;
   padding: 8px;
   width: 100%;
-  border: 1px solid #94a3b8;
+  border: 1px solid rgb(209, 54, 54);
   border-radius: 4px;
   margin-top: 5px;
 `

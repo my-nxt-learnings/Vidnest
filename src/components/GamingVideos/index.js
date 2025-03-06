@@ -119,7 +119,7 @@ class GamingVideos extends Component {
               <GamingContainer data-testid="gaming" bgColor={bgColor}>
                 <GamingVideoTitle>
                   <GamingTitleIconContainer>
-                    <SiYoutubegaming size={35} color="#ff0000" />
+                    <SiYoutubegaming size={45} color="#ff0000" />
                   </GamingTitleIconContainer>
                   <GamingText color={textColor}>Gaming</GamingText>
                 </GamingVideoTitle>

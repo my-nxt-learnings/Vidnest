@@ -3,8 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "engines": {
-    "node": "^10.13 || 12 || 14 || 15",
-    "npm": ">=6"
+    "node": ">=20.0.0",
+    "npm": ">=8"
   },
   "dependencies": {
     "@craco/craco": "6.1.1",
@@ -28,6 +28,8 @@
     "surge": "0.23.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11",
+    "babel-eslint": "10.1.0",
     "babel-plugin-styled-components": "1.13.2",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.1.0",

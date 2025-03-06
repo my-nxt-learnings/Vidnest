@@ -1,0 +1,15 @@
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  margin: 10px;
+  box-shadow: 3px 3px 8px black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: center;
+  padding: 10px;
+}
+
+.logo-channelname {
+  display: flex;
+  align-items: center;
+}

@@ -1,6 +1,7 @@
 import {Component} from 'react'
 import Cookies from 'js-cookie'
 import Loader from 'react-loader-spinner'
+import './index.css'
 
 import {AiOutlineClose, AiOutlineSearch} from 'react-icons/ai'
 
@@ -139,12 +140,9 @@ class Home extends Component {
               <HomeContainer data-testid="home" bgColor={bgColor}>
                 <BannerContainer data-testid="banner" display={display}>
                   <BannerLeftPart>
-                    <BannerImage
-                      src="https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png"
-                      alt="nxt watch logo"
-                    />
+                    <h1 className="logo">Vidnest</h1>
                     <BannerText>
-                      Buy Nxt Watch Premium prepaid plans with <br /> UPI
+                      Buy Vidnest Premium prepaid plans with <br /> UPI
                     </BannerText>
                     <BannerButton type="button">GET IT NOW</BannerButton>
                   </BannerLeftPart>

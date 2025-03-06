@@ -17,7 +17,7 @@ export const NavbarHeader = styled.nav`
   }
 `
 export const HeaderLogo = styled.img`
-  width: 80px;
+  width: 60px;
   height: 30px;
   @media screen and (min-width: 768px) {
     width: 100px;

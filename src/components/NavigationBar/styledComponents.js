@@ -39,6 +39,7 @@ export const NavLinkContainer = styled.li`
 `
 export const NavText = styled.p`
   font-family: 'Roboto';
+  font-weight: 500;
   font-size: 18px;
   margin-left: 15px;
   color: ${props => props.color};
@@ -48,16 +49,19 @@ export const ContactInfo = styled.div`
   display: flex;
   flex-direction: column;
   padding-left: 20px;
+  justify-content: center;
 `
 export const ContactHeading = styled.p`
   font-family: 'Roboto';
   font-size: 25px;
   font-weight: bold;
   color: ${props => props.color};
+  text-align: center;
 `
 export const ContactIcons = styled.div`
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 `
 export const ContactImage = styled.img`
   height: 25px;
@@ -67,8 +71,10 @@ export const ContactImage = styled.img`
 `
 export const ContactNote = styled.p`
   font-family: 'Roboto';
+  font-style: italic;
   font-size: 18px;
   color: ${props => props.color};
+  text-align: center;
 `
 export const NavigationSmallContainer = styled.nav`
   display: flex;

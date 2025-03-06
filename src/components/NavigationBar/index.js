@@ -121,9 +121,7 @@ class NavigationBar extends Component {
                     alt="linked in logo"
                   />
                 </ContactIcons>
-                <ContactNote color={textColor}>
-                  Enjoy! Now to see your channels and recommendations!
-                </ContactNote>
+                <ContactNote color={textColor}>All Rights Reserved</ContactNote>
               </ContactInfo>
             </NavigationLgContainer>
             <NavigationSmallContainer bgColor={bgColor}>

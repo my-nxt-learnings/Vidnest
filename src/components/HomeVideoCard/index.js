@@ -1,5 +1,7 @@
 import {Link} from 'react-router-dom'
 
+import {GrChannel} from 'react-icons/gr'
+
 import ThemeAndVideoContext from '../../context/ThemeAndVideoContext'
 
 import {
@@ -42,12 +44,15 @@ const HomeVideoCard = props => {
                 <ProfileImage src={profileImageUrl} alt="channel logo" />
                 <ContentSection>
                   <Title color={textColor}>{title}</Title>
-                  <ChannelName color={textColor}>{name}</ChannelName>
-                  <ViewsAndDate color={textColor}>
-                    {viewCount} views<Dot> &#8226; </Dot> {publishedAt}
-                  </ViewsAndDate>
+                  <div className="logo-channelname">
+                    <GrChannel size={15} />
+                    <ChannelName color={textColor}>{name}</ChannelName>
+                  </div>
                 </ContentSection>
               </VideoDetails>
+              <ViewsAndDate color={textColor}>
+                <div> {viewCount} views </div> <div> {publishedAt} </div>
+              </ViewsAndDate>
             </ListItem>
           </Link>
         )
